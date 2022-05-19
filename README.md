@@ -4,7 +4,6 @@ This is a currency converter which is use to fetch the converted convercy agains
 
 ## Installation
 ------------
-
 Clone the code using below URL 
 ```bash
 git clone https://github.com/Shubham-Ikhar/CurrencyConverter.git
