@@ -5,10 +5,18 @@ This is a currency converter which is use to fetch the converted convercy agains
 ## Installation
 ------------
 
-You can install directly after cloning:
+Clone the code using below URL 
 ```bash
-git clone git.com
+git clone https://github.com/Shubham-Ikhar/CurrencyConverter.git
 ```
+
+## Create Virtual ENV
+-----------------
+- Create a virtual environment before installing dependencies.
+```bash
+python -m venv venv
+```
+
 
 ## After Installation Steps
 -----------------
