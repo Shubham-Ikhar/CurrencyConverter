@@ -3,22 +3,19 @@
 This is a currency converter which is use to fetch the converted convercy against the provided one.
 
 ## Installation
-------------
 Clone the code using below URL 
 ```bash
 git clone https://github.com/Shubham-Ikhar/CurrencyConverter.git
 ```
-
+------------
 ## Create Virtual ENV
------------------
 - Create a virtual environment before installing dependencies.
 ```bash
 python -m venv venv
 ```
-
+-----------------
 
 ## After Installation Steps
------------------
 
 After installation, you should have ``currencyConverter`` in your ``$PATH``:
 - Download all the dependencies from requirements.txt file using below command:
@@ -29,15 +26,14 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-## Test Cases
 -----------------
+## Test Cases
 - To run the test cases use command:
 ```bash
 python test_app.py OR pytest -v test_app.py
 ```
-
-Code Coverage in HTML & Report Format
 -----------------
+## Code Coverage in HTML & Report Format
 - To  get the code coverage I use `coverage` module.
 - To get the code coverage in HTML format use command:
 ```bash
@@ -46,15 +42,15 @@ coverage html app.py
 ```bash
 coverage report app.py
 ```
-
+-----------------
 
 ## Code Coverage in HTML format:
 ![img.png](htmlcov/img.png)
 ![img_1.png](htmlcov/img_1.png)
-
+-----------------
 ## Code Coverage in Report format:
 ![img_2.png](htmlcov/img_2.png)
- 
+ -----------------
 ## Python API 1
 -  Exchange rate data can be retrieved from the REST API of the European Central Bank, using the URL below: https://sdw-wsrest.ecb.europa.eu/service/data/EXR/M.GBP.EUR.SP00.A?detail=dataonly
 - In the URL above, GBP is the source currency and EUR is the target one. These values can be replaced with
