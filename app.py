@@ -28,7 +28,7 @@ class CurrencyConverter:
 
     def get_exchange_rate(self, source: str, target: str = "EUR") -> pd.DataFrame:
         """
-        THis method is used to get the exchange rate of source and targeted currency which we passed.
+        This method is used to get the exchange rate of source and targeted currency which we passed.
         :param source:
         :param target:
         :return:  pd.DataFrame
@@ -71,13 +71,13 @@ class CurrencyConverter:
 
     def get_data(self, identifier: str, target_currency: Optional[str] = None) -> pd.DataFrame:
         """
-        #     This Function works on the target_currency value provided by user, If the target_currency parameter is None,
-        #     then it will return the DataFrame as-is like in the get_raw_data method.
-        #     Else convert the data from the source currency to the target one, defined by the target_currency parameter.
-        #     :param identifier:
-        #     :param target_currency:
-        #     :return:  pd.DataFrame
-        #     """
+        This Function works on the target_currency value provided by user, If the target_currency parameter is None,
+        then it will return the DataFrame as-is like in the get_raw_data method.
+        Else convert the data from the source currency to the target one, defined by the target_currency parameter.
+        :param identifier:
+        :param target_currency:
+        :return:  pd.DataFrame
+        """
         if not target_currency:
             return self.get_raw_data(identifier)
         source_currency = identifier.split(".")[12]
